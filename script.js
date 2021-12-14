@@ -7,7 +7,7 @@ const setupCamera = () => {
   navigator.mediaDevices
   .getUserMedia({
     video: {
-      width: 450,
+      width: 600,
       height: 400
     },
     audio: false,
